@@ -1,6 +1,5 @@
 # Billions-AI-agent
 
-# Update soundness
 Postingan sebelumnya ada di https://t.me/uangdrop/43793
 
 ### Clone Git terlebih dahulu
