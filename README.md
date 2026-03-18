@@ -1,7 +1,7 @@
 # Billions-AI-agent
-
 Postingan sebelumnya ada di https://t.me/uangdrop/43793
 
+Untuk mengerjakan task ini anda bisa menggunakan VPS atau https://github.com/codespaces
 ### Clone Git terlebih dahulu
 
 ```
