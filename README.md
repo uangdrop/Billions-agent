@@ -1,3 +1,6 @@
+<img width="755" height="507" alt="image" src="https://github.com/user-attachments/assets/72833748-6935-4b9f-8281-9a5e3c602c92" />
+
+
 # Billions-AI-agent
 Postingan sebelumnya ada di https://t.me/uangdrop/43793
 
