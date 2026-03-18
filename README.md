@@ -1,37 +1,37 @@
-# Billions-agent
+# Billions-AI-agent
 
 # Update soundness
-Postingan sebelumnya ada di https://t.me/uangdrop/40872
+Postingan sebelumnya ada di https://t.me/uangdrop/43793
 
-### Install CLI
-
-```
-sudo apt update && sudo apt upgrade -y
-sudo apt install openssl libssl-dev pkg-config
-```
+### Clone Git terlebih dahulu
 
 ```
-curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
-source ~/.bashrc
+git clone https://github.com/BillionsNetwork/verified-agent-identity
+```
+
+### Masuk ke folder verified-agent-identity
+```
+cd verified-agent-identity
+```
+
+### Install
+```
+npm install shell-quote @iden3/js-iden3-auth @0xpolygonid/js-sdk ethers uuid cross-fetch
 ```
 
 ```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh
-source $HOME/.cargo/env
+cd scripts
 ```
 
 ```
-soundnessup install
-soundnessup update
+node createNewEthereumIdentity.js
 ```
 
-### Import Account Lama Menggunakan Phrase
-
 ```
-soundness-cli import-key --name my-key --mnemonic "Your Pharse"
+node manualLinkHumanToAgent.js --challenge '{"name":"KOPIHITAMDAO","description":"KopiHitamDAO Agent"}'
 ```
 
-### Melihat Account Lama yang telah di buat
-```
-soundness-cli list-keys
-```
+### Lanjut
+Tinggal open link yang muncul dan kaitkan ke akun billions kalian
+Selamat mengerjakan 
+
